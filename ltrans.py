@@ -12,7 +12,7 @@ def translate():
 
 
 root = Tk()
-root.title("Translator")
+root.title("Snega Translator")
 
 
 mainframe = Frame(root)
@@ -41,12 +41,12 @@ Label(mainframe,text="Select a language").grid(row = 0, column = 2)
 lan2menu.grid(row = 1, column =2)
 
 
-Label(mainframe, text = "Enter text").grid(row=2,column=0)
+Label(mainframe, text = "Enter text to translate").grid(row=2,column=0)
 var = StringVar()
 textbox = Entry(mainframe, textvariable=var).grid(row=2,column=1)
 
 
-Label(mainframe, text = "Output").grid(row=2,column=2)
+Label(mainframe, text = "Translated text").grid(row=2,column=2)
 var1 = StringVar()
 textbox = Entry(mainframe, textvariable=var1).grid(row=2,column=3)
 
